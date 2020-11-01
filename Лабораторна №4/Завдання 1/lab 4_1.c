@@ -5,7 +5,7 @@
 int main()
 {setlocale(LC_CTYPE, "ukr");
    int a, b, i;
-   int x;
+   double x;
    do{
     i=0;
    printf("Введіть ціле число a= \n");
@@ -31,7 +31,7 @@ int main()
    while(i==1);
    {
        x=(sqrt(a-b*b)+sqrt(a*b));
-   printf("Відповідь: %d \n", x);
+   printf("Відповідь: %g \n", x);
    return 0;
 
    }

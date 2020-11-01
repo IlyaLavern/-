@@ -2,15 +2,16 @@
 #include <math.h>
 
 int main()
- {float y=0, x=1, a=0, b=6, dx=0.5;
+ {   int x=1;
+     double  a=0, y=0, b=6;
  printf("\n   ---------------- \n");
- printf("    X\t\tY\n");
- printf("\n   ----------------  \n");
- for (a=0; a<=b; a+=dx)
+ printf("    X\t\t   Y\n");
+ printf("\n   ---------------- \n");
+ for (a=0; a<=b; a+=0.5)
  {
      x=a;
      y=1/(1-sqrt(x));
-     printf ("    %f \t   %7.2lf  \n",  x, y);
+     printf ("    %d\t    %7.2lf  \n",  x, y);
  }
- printf("\n   ----------------  \n");
+ printf("\n   ---------------- \n");
 }
