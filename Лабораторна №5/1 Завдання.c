@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main(void)
-{setlocale(LC_CTYPE, "UKR");
+{setlocale(LC_CTYPE, "ukr");
 
   int n=0, m, i;
   int suma=0, count=0;
